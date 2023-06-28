@@ -6,7 +6,7 @@ const Dashboard = () => {
 
   const [data,setData] = useState([]);
   useEffect(() => {
-   fetch (`http://localhost:${process.env.REACT_APP_BACKEND_SERVER_PORT}/tours`)
+   fetch (`https://weary-wasp-clothes.cyclic.app/tours`)
    .then((res)=>res.json())
    .then((res)=>{
     console.log(res)

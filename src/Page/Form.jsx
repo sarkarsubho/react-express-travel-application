@@ -18,7 +18,7 @@ const Form = () => {
     email.preventDefault();
     console.log(form);
     fetch(
-      `http://localhost:${process.env.REACT_APP_BACKEND_SERVER_PORT}/tours`,
+      `https://weary-wasp-clothes.cyclic.app/tours`,
       {
         method: "POST",
         headers: {
