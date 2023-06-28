@@ -1,0 +1,76 @@
+body {
+  background-color: rgb(230, 244, 244);
+  font-size: 18px;
+}
+
+#FormContainer{
+ max-width: fit-content;
+ padding: 1rem;
+ margin: auto;
+ border-radius: 5px;
+ background-color: rgb(202, 238, 238);
+ box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+form {
+  width: max-content;
+  padding: 2rem 8rem;
+  margin: auto;
+  margin-top: 15px;
+
+  text-align: left;
+
+  font-weight: 500;
+  color: #023e32;
+  font-size: 18px;
+
+}
+
+::placeholder,
+select {
+  font-size: 18px;
+  color: gray;
+}
+
+form :last-child ,button{
+  background-color: rgb(130, 240, 240);
+  border: none;
+  border-radius: 2px;
+  font-size: 16px;
+}
+
+button{
+    padding: 15px;
+    margin-top: 15px;
+    font-size: 16px;
+}
+input,
+select {
+  margin-bottom: 25px;
+  height: 30px;
+  width: 250px;
+}
+lable{
+   margin-bottom: 15px;
+}
+
+#errorMsg{
+  color: red;
+  background-color: rgb(245, 236, 236);
+  border: 1.2px solid red;
+  padding: 0.5rem ;
+  width: 250px;
+  margin :auto;
+  border-radius: 2px;
+  font-size: 15px;
+}
+
+#successMsg{
+  color: green;
+  background-color: rgb(230, 244, 230);
+  border: 1.2px solid green;
+  padding: 0.5rem ;
+  width: 250px;
+  margin :auto;
+  border-radius: 2px;
+  font-size: 15px;
+}

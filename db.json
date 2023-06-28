@@ -1,0 +1,52 @@
+{
+  "tours": [
+    {
+      "id": 1,
+      "name": "Ravi Kumar",
+      "email": "ravi@mail.com",
+      "tourLocation": "India",
+      "noOfTraveller": 3,
+      "budgetPerHead": 250
+    },
+    {
+      "id": 2,
+      "name": "Fatima Mohammed",
+      "email": "fatima@mail.com",
+      "tourLocation": "Africa",
+      "noOfTraveller": 2,
+      "budgetPerHead": 300
+    },
+    {
+      "id": 3,
+      "name": "Giovanni Rossi",
+      "email": "giovanni@mail.com",
+      "tourLocation": "Europe",
+      "noOfTraveller": 4,
+      "budgetPerHead": 200
+    },
+    {
+      "id": 4,
+      "name": "Neha Patel",
+      "email": "neha@mail.com",
+      "tourLocation": "India",
+      "noOfTraveller": 1,
+      "budgetPerHead": 500
+    },
+    {
+      "id": 5,
+      "name": "Amara Diallo",
+      "email": "amara@mail.com",
+      "tourLocation": "Africa",
+      "noOfTraveller": 5,
+      "budgetPerHead": 150
+    },
+    {
+      "name": "pablo pandit",
+      "email": "pablo@mail.com",
+      "tourLocation": "kashmir",
+      "noOfTraveller": 3,
+      "budgetPerHead": 350,
+      "id": 6
+    }
+  ]
+}
